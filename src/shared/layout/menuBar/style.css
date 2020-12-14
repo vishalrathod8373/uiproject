@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menuStyle {
+  width: 100%;
+  background: #666666;
+}
+.menuStyle ul{
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.menuStyle ul li{
+    list-style: none;
+    text-transform: uppercase;
+}
