@@ -7,6 +7,8 @@ import PageNotFound from "../helpers/pageNotFound";
 import Home from "../pages/home";
 import FillForm from "../pages/fillForm";
 import TableExample from "../pages/tableExample";
+import HomePageOfShopping from "../pages/shopping/shop";
+import Cart from "../pages/shopping/cart";
 import MenuBar from "../shared/layout/menuBar/menu";
 
 function Routes() {
@@ -19,6 +21,8 @@ function Routes() {
                 <Route path="/contact" component={Contact} />
                 <Route path="/fillform" component={FillForm}/>
                 <Route path="/table" component={TableExample}/>
+                <Route path="/shop" component={HomePageOfShopping}/>
+                <Route path="/cart" component={Cart}/>
                 <Route component={PageNotFound} />
             </Switch>
         </BrowserRouter>

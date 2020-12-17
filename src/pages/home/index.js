@@ -9,9 +9,16 @@ function Home(props) {
         <div class="container">
             <p>Home</p>
             <p>Name from redux : {props.addName}</p>
-            <Button>
-                <Link to="fillform">Register</Link>
-            </Button>
+            <div style={{display:'flex',justifyContent:'space-between'}}>
+                <Button>
+                    <Link to="fillform">Register</Link>
+                </Button>
+                <Button>
+                    <Link to="/shop">
+                        Shop
+                     </Link>
+                </Button>
+            </div>
         </div>
     );
 };
